@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Index - iPortfolio Bootstrap Template</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+    <!-- =======================================================
+  * Template Name: iPortfolio
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Updated: Jun 29 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+
+    <style>
+        .professional-skill {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .professional-skill:hover {
+            transform: translateY(-5px);
+        }
+        
+        .professional-skill h4 {
+            color: #444;
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+        }
+        
+        .professional-skill h4 i {
+            margin-right: 10px;
+            color: #0563bb;
+        }
+        
+        .professional-skill ul {
+            list-style: none;
+            padding-left: 1rem;
+        }
+        
+        .professional-skill ul li {
+            margin-bottom: 0.5rem;
+            position: relative;
+            padding-left: 1.5rem;
+        }
+        
+        .professional-skill ul li:before {
+            content: "▹";
+            position: absolute;
+            left: 0;
+            color: #0563bb;
+        }
+        /* Style spécifique pour la section agriculture */
+        
+        .container[data-aos-delay="300"] .professional-skill {
+            border-left: 4px solid #28a745;
+        }
+        
+        .container[data-aos-delay="300"] .professional-skill h4 i {
+            color: #28a745;
+        }
+        
+        .container[data-aos-delay="300"] .professional-skill ul li:before {
+            color: #28a745;
+        }
+    </style>
+</head>
+
+<body class="index-page">
+
+    <header id="header" class="header dark-background d-flex flex-column">
+        <i class="header-toggle d-xl-none bi bi-list"></i>
+
+        <div class="profile-img">
+            <img src="assets/img/Diag.jpg" alt="" class="img-fluid rounded-circle">
+        </div>
+
+        <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+            <!-- Uncomment the line below if you also wish to use an image logo -->
+            <!-- <img src="assets/img/logo.png" alt=""> -->
+            <h1 class="sitename">Mohameth Diagne</h1>
+        </a>
+
+        <div class="social-links text-center">
+            <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+            <a href="https://www.facebook.com/mohamed.diagne.9421" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
+            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        </div>
+
+        <nav id="navmenu" class="navmenu">
+            <ul>
+                <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
+                <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
+                <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+                <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
+                <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
+
+                <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main class="main">
+
+        <!-- Hero Section -->
+        <section id="hero" class="hero section dark-background">
+
+            <img src="assets/img/0e0780cec5095b930a6e5043d683ec03.jpg" alt="" data-aos="fade-in" class="">
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <h2>Mohameth Diagne</h2>
+                <p>I'm <span class="typed" data-typed-items="Designer, Developer, Freelancer, Data scientist">Designer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+            </div>
+
+        </section>
+        <!-- /Hero Section -->
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2>À Propos de Moi</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Je suis actuellement étudiant passionné par le developpement web et mobile. En constante recherche d'apprentissage et de nouveaux défis, je développe mes compétences à travers mes études et mes projets personnels.</p>
+
+                        <p>Mon parcours académique m'a permis de :</p>
+                        <ul>
+                            <li>Acquérir une solide base théorique</li>
+                            <li>Travailler sur des projets concrets</li>
+                            <li>Développer mon esprit d'analyse et ma créativité</li>
+                        </ul>
+
+                        <div class="education">
+                            <h3>Formation</h3>
+                            <p>Informatique - Institut Supérieur d'Enseignement Professionnel de Diamniadio</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section id="stats" class="stats section">
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <div class="row gy-4">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="stats-item">
+                            <i class="bi bi-emoji-smile"></i>
+                            <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+                            <p><strong>Clients Satisfaits</strong> <span>Projets réussis</span></p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="stats-item">
+                            <i class="bi bi-journal-richtext"></i>
+                            <span data-purecounter-start="0" data-purecounter-end="20" data-purecounter-duration="1" class="purecounter"></span>
+                            <p><strong>Projets</strong> <span>Web & Mobile</span></p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="stats-item">
+                            <i class="bi bi-clock"></i>
+                            <span data-purecounter-start="0" data-purecounter-end="7" data-purecounter-duration="1" class="purecounter"></span>
+                            <p><strong>Années d'Expérience</strong> <span>Agriculture & Tech</span></p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="stats-item">
+                            <i class="bi bi-award"></i>
+                            <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
+                            <p><strong>Certifications</strong> <span>Développement & Data</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Stats Section -->
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section light-background">
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Skills</h2>
+                <p>Mes compétences techniques et professionnelles acquises à travers ma formation et mes projets personnels</p>
+            </div>
+
+            <!-- Compétences Techniques -->
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <h3 class="mb-4">Compétences Techniques</h3>
+                <div class="row skills-content skills-animation">
+                    <div class="col-lg-6">
+
+                        <div class="progress">
+                            <span class="skill"><span>HTML/CSS</span> <i class="val">95%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <!-- End Skills Item -->
+
+                        <div class="progress">
+                            <span class="skill"><span>JavaScript</span> <i class="val">85%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <!-- End Skills Item -->
+
+                        <div class="progress">
+                            <span class="skill"><span>Django</span> <i class="val">90%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <!-- End Skills Item -->
+
+                        <div class="progress">
+                            <span class="skill"><span>Angular</span> <i class="val">85%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <!-- End Skills Item -->
+
+                        <div class="progress">
+                            <span class="skill"><span>Flutter</span> <i class="val">80%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <!-- End Skills Item -->
+
+                        <div class="progress">
+                            <span class="skill"><span>Adobe Photoshop & Illustrator</span> <i class="val">85%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="progress">
+                            <span class="skill"><span>PowerBI</span> <i class="val">88%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="progress">
+                            <span class="skill"><span>Excel Avancé</span> <i class="val">92%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-6">
+
+                        <div class="progress">
+                            <span class="skill"><span>Marketing Digital</span> <i class="val">90%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <!-- End Skills Item -->
+
+                        <div class="progress">
+                            <span class="skill"><span>UI/UX Design</span> <i class="val">85%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <!-- End Skills Item -->
+
+                        <div class="progress">
+                            <span class="skill"><span>Figma</span> <i class="val">90%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="progress">
+                            <span class="skill"><span>Python</span> <i class="val">88%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <!-- End Skills Item -->
+
+                        <div class="progress">
+                            <span class="skill"><span>Data Science</span> <i class="val">82%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <!-- End Skills Item -->
+
+                        <div class="progress">
+                            <span class="skill"><span>Base de données</span> <i class="val">85%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <!-- End Skills Item -->
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Compétences Professionnelles -->
+            <div class="container mt-5" data-aos="fade-up" data-aos-delay="200">
+                <h3 class="mb-4">Compétences Professionnelles</h3>
+                <div class="row gy-4">
+                    <div class="col-lg-6">
+                        <div class="professional-skill">
+                            <h4><i class="bi bi-people-fill me-2"></i>Travail d'équipe</h4>
+                            <ul>
+                                <li>Collaboration efficace en équipe multiculturelle</li>
+                                <li>Communication claire et constructive</li>
+                                <li>Partage des connaissances</li>
+                            </ul>
+                        </div>
+
+                        <div class="professional-skill">
+                            <h4><i class="bi bi-lightbulb me-2"></i>Résolution de problèmes</h4>
+                            <ul>
+                                <li>Analyse et diagnostic des problèmes</li>
+                                <li>Approche méthodique et structurée</li>
+                                <li>Solutions innovantes et efficaces</li>
+                            </ul>
+                        </div>
+
+                        <div class="professional-skill">
+                            <h4><i class="bi bi-clock-history me-2"></i>Gestion du temps</h4>
+                            <ul>
+                                <li>Respect des délais</li>
+                                <li>Priorisation des tâches</li>
+                                <li>Organisation efficace du travail</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="professional-skill">
+                            <h4><i class="bi bi-translate me-2"></i>Communication</h4>
+                            <ul>
+                                <li>Communication écrite et orale</li>
+                                <li>Présentation de projets</li>
+                                <li>Documentation technique</li>
+                            </ul>
+                        </div>
+
+                        <div class="professional-skill">
+                            <h4><i class="bi bi-graph-up-arrow me-2"></i>Adaptabilité</h4>
+                            <ul>
+                                <li>Apprentissage rapide</li>
+                                <li>Flexibilité face au changement</li>
+                                <li>Veille technologique continue</li>
+                            </ul>
+                        </div>
+
+                        <div class="professional-skill">
+                            <h4><i class="bi bi-kanban me-2"></i>Gestion de projet</h4>
+                            <ul>
+                                <li>Méthodologies Agiles</li>
+                                <li>Planification et suivi</li>
+                                <li>Gestion des ressources</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-5" data-aos="fade-up" data-aos-delay="300">
+                <h3 class="mb-4">Compétences en Agriculture et Leadership</h3>
+                <div class="row gy-4">
+                    <div class="col-lg-6">
+                        <div class="professional-skill">
+                            <h4><i class="bi bi-flower1 me-2"></i>Agriculture</h4>
+                            <ul>
+                                <li>7+ ans d'expérience en agriculture</li>
+                                <li>Techniques de semis et récolte</li>
+                                <li>Gestion des cultures saisonnières</li>
+                                <li>Agriculture durable et écologique</li>
+                            </ul>
+                        </div>
+
+                        <div class="professional-skill">
+                            <h4><i class="bi bi-shield-check me-2"></i>Élevage</h4>
+                            <ul>
+                                <li>Soins et suivi des animaux</li>
+                                <li>Gestion sanitaire du bétail</li>
+                                <li>Alimentation et nutrition animale</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="professional-skill">
+                            <h4><i class="bi bi-diagram-3 me-2"></i>Management Agricole</h4>
+                            <ul>
+                                <li>Gestion d'exploitation agricole</li>
+                                <li>Planification des activités saisonnières</li>
+                                <li>Optimisation des ressources</li>
+                            </ul>
+                        </div>
+
+                        <div class="professional-skill">
+                            <h4><i class="bi bi-people-fill me-2"></i>Leadership PLAN</h4>
+                            <ul>
+                                <li>Représentant officiel PLAN</li>
+                                <li>Coordination de projets communautaires</li>
+                                <li>Sensibilisation et formation</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /Skills Section -->
+
+        <!-- Resume Section -->
+        <section id="resume" class="resume section">
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Resume</h2>
+                <p>Mon parcours académique et mes réalisations professionnelles</p>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                        <h3 class="resume-title">Résumé</h3>
+                        <div class="resume-item pb-0">
+                            <h4>Mohameth Diagne</h4>
+                            <p><em>Développeur web passionné et étudiant en informatique, spécialisé dans le développement d'applications web et mobile avec une forte appétence pour les nouvelles technologies.</em></p>
+                            <ul>
+                                <li>Diamniadio, Sénégal</li>
+                                <li>mohamethdiagne139@gmail.com</li>
+                            </ul>
+                        </div>
+
+                        <h3 class="resume-title">Formation</h3>
+                        <div class="resume-item">
+                            <h4>BTS en Informatique</h4>
+                            <h5>2022 - 2024</h5>
+                            <p><em>Institut Supérieur d'Enseignement Professionnel (ISEP) de Diamniadio</em></p>
+                            <p>Formation pluridisciplinaire en informatique et technologies numériques</p>
+                            <ul>
+                                <li>Développement Web & Mobile
+                                    <ul>
+                                        <li>Frontend : HTML, CSS, JavaScript, React</li>
+                                        <li>Backend : PHP, Laravel, Node.js</li>
+                                        <li>Développement d'applications mobiles</li>
+                                    </ul>
+                                </li>
+                                <li>Data Science
+                                    <ul>
+                                        <li>Analyse et traitement des données</li>
+                                        <li>Machine Learning et Intelligence Artificielle</li>
+                                        <li>Visualisation des données</li>
+                                    </ul>
+                                </li>
+                                <li>Marketing Digital
+                                    <ul>
+                                        <li>Stratégie marketing numérique</li>
+                                        <li>SEO et référencement</li>
+                                        <li>Marketing des réseaux sociaux</li>
+                                    </ul>
+                                </li>
+                                <li>Design & Infographie
+                                    <ul>
+                                        <li>UI/UX Design</li>
+                                        <li>Création graphique et infographie</li>
+                                        <li>Outils de design (Adobe, Figma)</li>
+                                    </ul>
+                                </li>
+                                <li>Gestion de Projets
+                                    <ul>
+                                        <li>Méthodologies Agiles</li>
+                                        <li>Gestion d'équipe</li>
+                                        <li>Planification et suivi de projets</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="resume-item">
+                            <h4>Baccalauréat Série L2</h4>
+                            <h5>2022</h5>
+                            <p><em>Premier du centre avec Mention Assez-Bien</em></p>
+                            <p>Moyenne générale : 12,98/20</p>
+                            <ul>
+                                <li>Major de promotion de mon centre</li>
+                                <li>Spécialisation en Littérature</li>
+                                <li>Option : Langues et Littérature</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                        <h3 class="resume-title">Expérience Professionnelle</h3>
+                        <div class="resume-item">
+                            <h4>Développeur Web Junior</h4>
+                            <h5>2023 - Présent</h5>
+                            <p><em>Projets académiques et personnels</em></p>
+                            <ul>
+                                <li>Développement d'applications web avec Django et Angular</li>
+                                <li>Création d'interfaces utilisateur responsives</li>
+                                <li>Gestion de bases de données MySQL</li>
+                                <li>Utilisation de Git pour le versioning des projets</li>
+                            </ul>
+                        </div>
+
+                        <div class="resume-item">
+                            <h4>Projets Personnels</h4>
+                            <h5>2022 - 2024</h5>
+                            <p><em>Portfolio de projets</em></p>
+                            <ul>
+                                <li>Développement d'une application de gestion de Absences avec Django</li>
+                                <li>Création d'un système d'authentification avec Django et Angular</li>
+                                <li>Conception et développement de sites web responsifs</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Resume Section -->
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="portfolio section light-background">
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Portfolio</h2>
+                <p>Découvrez mes projets de développement web, mettant en œuvre différentes technologies comme React, Laravel, et plus encore.</p>
+            </div>
+
+            <div class="container">
+                <div class="isotope-layout" data-default-filter="*" data-layout="masonry">
+                    <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+                        <li data-filter="*" class="filter-active">Tous</li>
+                        <li data-filter=".filter-web">Web</li>
+                        <li data-filter=".filter-react">Django</li>
+                        <li data-filter=".filter-laravel">Angular</li>
+                    </ul>
+
+                    <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+                        <!-- Projet React Movie -->
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-react">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/90aaa6b52ed4e77079253941abc64bd8.jpg" class="img-fluid" alt="React Movie Project">
+                                <div class="portfolio-info">
+                                    <h4>Gestion d'absences</h4>
+                                    <p>Application de Gestion d'absences avec Django et Django Rest Framework</p>
+                                    <a href="https://github.com/Metzo139/Certification-Django" title="Plus de détails" class="details-link">
+                                        <i class="bi bi-link-45deg"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Projet Laravel Breeze -->
+                        <!-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-laravel ">
+                            <div class="portfolio-content h-100 ">
+                                <img src="assets/img/portfolio/laravel-breeze.jpg " class="img-fluid " alt="Laravel Breeze Project ">
+                                <div class="portfolio-info ">
+                                    <h4>Ecommerce</h4>
+                                    <p>Ecommerce avec Angular et Bootstrap</p>
+                                    <a href="https://github.com/Metzo139/Laravel-Breeze " title="Plus de détails " class="details-link ">
+                                        <i class="bi bi-link-45deg "></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>-->
+
+                        <!-- Projet Portfolio -->
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web ">
+                            <div class="portfolio-content h-100 ">
+                                <img src="assets/img/portfolio/books-2.jpg " class="img-fluid " alt="Portfolio Project ">
+                                <div class="portfolio-info ">
+                                    <h4>Portfolio Personnel</h4>
+                                    <p>Site web portfolio responsive avec Bootstrap</p>
+                                    <a href="https://github.com/Metzo139 " title="Plus de détails " class="details-link ">
+                                        <i class="bi bi-link-45deg "></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Portfolio Section -->
+
+        <!-- Services Section -->
+        <section id="services " class="services section ">
+            <div class="container section-title " data-aos="fade-up ">
+                <h2>Services</h2>
+                <p>Je propose une gamme complète de services en développement web, design et marketing digital</p>
+            </div>
+
+            <div class="container ">
+                <div class="row gy-4 ">
+                    <div class="col-lg-4 col-md-6 service-item d-flex " data-aos="fade-up " data-aos-delay="100 ">
+                        <div class="icon flex-shrink-0 "><i class="bi bi-code-square "></i></div>
+                        <div>
+                            <h4 class="title ">Développement Web</h4>
+                            <p class="description ">
+                                Création de sites web et d'applications avec Django et Angular. Solutions sur mesure, responsive et performantes.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 service-item d-flex " data-aos="fade-up " data-aos-delay="200 ">
+                        <div class="icon flex-shrink-0 "><i class="bi bi-phone "></i></div>
+                        <div>
+                            <h4 class="title ">Développement Mobile</h4>
+                            <p class="description ">
+                                Développement d'applications mobiles cross-platform avec Flutter. Applications performantes et intuitives.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 service-item d-flex " data-aos="fade-up " data-aos-delay="300 ">
+                        <div class="icon flex-shrink-0 "><i class="bi bi-palette "></i></div>
+                        <div>
+                            <h4 class="title ">UI/UX Design</h4>
+                            <p class="description ">
+                                Création d'interfaces utilisateur modernes avec Figma et Adobe Creative Suite. Design centré utilisateur et expérience optimale.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 service-item d-flex " data-aos="fade-up " data-aos-delay="400 ">
+                        <div class="icon flex-shrink-0 "><i class="bi bi-graph-up "></i></div>
+                        <div>
+                            <h4 class="title ">Marketing Digital</h4>
+                            <p class="description ">
+                                Stratégies marketing complètes, SEO, gestion des réseaux sociaux et optimisation de la présence en ligne.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 service-item d-flex " data-aos="fade-up " data-aos-delay="500 ">
+                        <div class="icon flex-shrink-0 "><i class="bi bi-database "></i></div>
+                        <div>
+                            <h4 class="title ">Data Science</h4>
+                            <p class="description ">
+                                Analyse de données, visualisation et création de tableaux de bord. Solutions basées sur les données pour la prise de décision.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 service-item d-flex " data-aos="fade-up " data-aos-delay="600 ">
+                        <div class="icon flex-shrink-0 "><i class="bi bi-people "></i></div>
+                        <div>
+                            <h4 class="title ">Formation & Consulting</h4>
+                            <p class="description ">
+                                Formation personnalisée en développement web, design et marketing digital. Conseil en transformation numérique.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Services Section -->
+
+        <!-- Testimonials Section -->
+        <section id="testimonials " class="testimonials section light-background ">
+            <div class="container section-title " data-aos="fade-up ">
+                <h2>Témoignages</h2>
+                <p>Découvrez ce que disent mes collaborateurs et clients à propos de mon travail</p>
+            </div>
+
+            <div class="container " data-aos="fade-up " data-aos-delay="100 ">
+                <div class="swiper init-swiper ">
+                    <script type="application/json " class="swiper-config ">
+                        {
+                            "loop ": true,
+                            "speed ": 600,
+                            "autoplay ": {
+                                "delay ": 5000
+                            },
+                            "slidesPerView ": "auto ",
+                            "pagination ": {
+                                "el ": ".swiper-pagination ",
+                                "type ": "bullets ",
+                                "clickable ": true
+                            },
+                            "breakpoints ": {
+                                "320 ": {
+                                    "slidesPerView ": 1,
+                                    "spaceBetween ": 40
+                                },
+                                "1200 ": {
+                                    "slidesPerView ": 3,
+                                    "spaceBetween ": 1
+                                }
+                            }
+                        }
+                    </script>
+                    <div class="swiper-wrapper ">
+                        <div class="swiper-slide ">
+                            <div class="testimonial-item ">
+                                <p>
+                                    <i class="bi bi-quote quote-icon-left "></i>
+                                    <span>Mohameth est un excellent développeur qui a su mener à bien notre projet de gestion d'absences. Son professionnalisme et sa capacité à résoudre les problèmes sont remarquables.</span>
+                                    <i class="bi bi-quote quote-icon-right "></i>
+                                </p>
+                                <img src="assets/img/testimonials/senegalais-1.jpg" class="testimonial-img" alt="Dr. Moussa Diallo">
+                                <h3>Dr. Moussa Diallo</h3>
+                                <h4>Directeur des Études ISEP</h4>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide ">
+                            <div class="testimonial-item ">
+                                <p>
+                                    <i class="bi bi-quote quote-icon-left "></i>
+                                    <span>Son expertise en agriculture et sa maîtrise des nouvelles technologies font de lui un atout précieux. Il a contribué significativement au développement de notre communauté.</span>
+                                    <i class="bi bi-quote quote-icon-right "></i>
+                                </p>
+                                <img src="assets/img/testimonials/senegalais-2.jpg" class="testimonial-img" alt="Mamadou Sow">
+                                <h3>Mamadou Sow</h3>
+                                <h4>Coordinateur PLAN</h4>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide ">
+                            <div class="testimonial-item ">
+                                <p>
+                                    <i class="bi bi-quote quote-icon-left "></i>
+                                    <span>Sa double compétence en développement web et en marketing digital nous a permis d'améliorer significativement notre présence en ligne et notre efficacité opérationnelle.</span>
+                                    <i class="bi bi-quote quote-icon-right "></i>
+                                </p>
+                                <img src="assets/img/testimonials/senegalaise-1.jpg" class="testimonial-img" alt="Fatou Ndiaye">
+                                <h3>Fatou Ndiaye</h3>
+                                <h4>Chef de Projet Digital</h4>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide ">
+                            <div class="testimonial-item ">
+                                <p>
+                                    <i class="bi bi-quote quote-icon-left "></i>
+                                    <span>Un excellent formateur qui sait transmettre ses connaissances. Sa patience et sa pédagogie ont grandement facilité notre apprentissage du développement web.</span>
+                                    <i class="bi bi-quote quote-icon-right "></i>
+                                </p>
+                                <img src="assets/img/testimonials/senegalais-3.jpg" class="testimonial-img" alt="Abdoulaye Kane">
+                                <h3>Abdoulaye Kane</h3>
+                                <h4>Étudiant en formation</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination "></div>
+                </div>
+            </div>
+        </section>
+        <!-- End Testimonials Section -->
+
+        <!-- Contact Section -->
+        <section id="contact " class="contact section ">
+            <div class="container section-title " data-aos="fade-up ">
+                <h2>Contact</h2>
+                <p>N'hésitez pas à me contacter pour vos projets ou toute autre question</p>
+            </div>
+
+            <div class="container " data-aos="fade-up " data-aos-delay="100 ">
+                <div class="row gy-4 ">
+                    <div class="col-lg-5 ">
+                        <div class="info-wrap ">
+                            <div class="info-item d-flex " data-aos="fade-up " data-aos-delay="200 ">
+                                <i class="bi bi-geo-alt flex-shrink-0 "></i>
+                                <div>
+                                    <h3>Adresse</h3>
+                                    <p>Diamniadio, Dakar, Sénégal</p>
+                                </div>
+                            </div>
+
+                            <div class="info-item d-flex " data-aos="fade-up " data-aos-delay="300 ">
+                                <i class="bi bi-telephone flex-shrink-0 "></i>
+                                <div>
+                                    <h3>Téléphone</h3>
+                                    <p>+221 78 237 92 80</p>
+                                </div>
+                            </div>
+
+                            <div class="info-item d-flex " data-aos="fade-up " data-aos-delay="400 ">
+                                <i class="bi bi-envelope flex-shrink-0 "></i>
+                                <div>
+                                    <h3>Email</h3>
+                                    <p>mohamethdiagne139@gmail.com</p>
+                                </div>
+                            </div>
+
+                            <div class="info-item d-flex " data-aos="fade-up " data-aos-delay="500 ">
+                                <i class="bi bi-clock flex-shrink-0 "></i>
+                                <div>
+                                    <h3>Disponibilité</h3>
+                                    <p>Lundi - Samedi<br>9:00 - 18:00</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15439.645939643233!2d-17.055277687225338!3d14.721679499999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xec172c9ad5855a3%3A0xf427a8156e28c1e8!2sISEP%20de%20Diamniadio!5e0!3m2!1sfr!2ssn!4v1709822611943!5m2!1sfr!2ssn "
+                            frameborder="0 " style="border:0; width: 100%; height: 270px; " allowfullscreen=" " loading="lazy " referrerpolicy="no-referrer-when-downgrade ">
+                        </iframe>
+                    </div>
+
+                    <div class="col-lg-7 ">
+                        <form action="forms/contact.php " method="post " class="php-email-form " data-aos="fade-up " data-aos-delay="200 ">
+                            <div class="row gy-4 ">
+                                <div class="col-md-6 ">
+                                    <label for="name-field " class="pb-2 ">Votre Nom</label>
+                                    <input type="text " name="name " id="name-field " class="form-control " required>
+                                </div>
+
+                                <div class="col-md-6 ">
+                                    <label for="email-field " class="pb-2 ">Votre Email</label>
+                                    <input type="email " class="form-control " name="email " id="email-field " required>
+                                </div>
+
+                                <div class="col-md-12 ">
+                                    <label for="subject-field " class="pb-2 ">Sujet</label>
+                                    <input type="text " class="form-control " name="subject " id="subject-field " required>
+                                </div>
+
+                                <div class="col-md-12 ">
+                                    <label for="message-field " class="pb-2 ">Message</label>
+                                    <textarea class="form-control " name="message " rows="6 " id="message-field " required></textarea>
+                                </div>
+
+                                <div class="col-md-12 text-center ">
+                                    <div class="loading ">Chargement</div>
+                                    <div class="error-message "></div>
+                                    <div class="sent-message ">Votre message a été envoyé. Merci!</div>
+                                    <button type="submit ">Envoyer le Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /Contact Section -->
+
+    </main>
+
+    <footer id="footer " class="footer position-relative light-background ">
+
+        <div class="container ">
+            <div class="copyright text-center ">
+                <p>© <span>Copyright</span> <strong class="px-1 sitename ">iPortfolio</strong> <span>All Rights Reserved</span></p>
+            </div>
+            <div class="credits ">
+                <!-- All the links in the footer should remain intact. -->
+                <!-- You can delete the links only if you've purchased the pro version. -->
+                <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+                Designed by Mohameth Diagne
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Scroll Top -->
+    <a href="# " id="scroll-top " class="scroll-top d-flex align-items-center justify-content-center "><i class="bi bi-arrow-up-short "></i></a>
+
+    <!-- Preloader -->
+    <div id="preloader "></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js "></script>
+    <script src="assets/vendor/php-email-form/validate.js "></script>
+    <script src="assets/vendor/aos/aos.js "></script>
+    <script src="assets/vendor/typed.js/typed.umd.js "></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js "></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js "></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js "></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js "></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js "></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js "></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js "></script>
+
+</body>
+
+</html>
